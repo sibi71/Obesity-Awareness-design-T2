@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(39, 40, 55);
+}
+.container{
+      margin-left: -10%;
+}
+header img{
+    position: relative;
+    left: 20%;
+}
+header p{
+    position: absolute;
+    left: 35%;
+    top: 33%;
+    font-size: 100px;
+    letter-spacing: 25px;
+    text-transform: uppercase;
+    font-weight:1000;
+    color: rgb(194, 3, 3);
+    font-family: 'Oswald', sans-serif;
+}
+header span{
+    position: absolute;
+    left: 38%;
+    top: 29%;
+    font-size: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight:500;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.first-box,.second-box,.third-box,
+.fourth-box,.seven-box{
+  
+    width: 55%;
+    height: 250px;
+    position: relative;
+    left: 20%;
+    
+}
+.first-left ,.fourth-left,.seven-left{
+   
+   width: 50%;
+   height: 245px;
+} 
+.first-left ,.fourth-left,.seven-left{
+    padding: 15px;
+    font-size: 30px;
+    display: flex;
+    letter-spacing: 10px;
+    justify-content: center;
+    background-color:orange;
+}
+.first-left span{
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    padding: 15px;
+    font-size: 50px ;
+    font-weight: 900;
+    display: flex;
+    color: white ;
+    letter-spacing:15px;
+    font-family: 'Oswald', sans-serif;   
+}
+.first-left p {
+    position: absolute;
+    left:5%;
+    top:40%;
+    width: 40%;
+    font-size: 15px;
+    flex-direction: column;
+    
+    font-weight: 500;
+    color: white ;
+    letter-spacing:1px;
+}
+.first-left p b{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 1500;
+}
+.first-right,.fourth-right,.seven-right{
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  width: 50%;
+  height: 245px;
+  color: white;
+  background-color: skyblue;
+}
+.first-right p{
+    padding:5px;
+    font-size:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first-right p b{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 1500;
+}
+.first-right p u{
+    letter-spacing: 5px;
+}
+
+.second-left ,.third-left{
+    
+    width: 100%;
+    height: 240px;  
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    letter-spacing: 10px;
+    justify-content: center;
+    background-color:rgb(248, 39, 39);
+}
+.second-left p{
+    position: absolute;
+    left:2%;
+    top:10%;
+    width: 70%;
+    font-size: 30px;
+    color: white ;
+    font-family: 'Oswald', sans-serif;
+   
+}
+.second-left ul{
+    position: absolute;
+    left: 65%;
+    top: 10%;
+    list-style-type: none;    
+}
+.second-left ul li{
+    display: inline;
+    letter-spacing: 70px;   
+}
+.second-left ul li span{
+    letter-spacing:5px;
+    font-size: 20px; 
+    display: inline;
+    flex-direction: column;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.second-left h4{
+   
+    position: absolute;
+    left:2%;
+    bottom:10%;
+    width:100%;
+    font-size:17px;
+    display: flex;
+    flex-direction: column;
+    color: white ;
+    letter-spacing:1px;
+}
+.third-left{
+    background-color: skyblue;
+}
+.third-left p{
+    width: 50% ;
+    font-weight: 1500;
+    color: white ;
+    font-family: 'Oswald', sans-serif;
+}
+.third-left div{
+    position: relative;
+    padding: 3px;
+    top:10%;
+    right:28% ;
+    width:60%;
+    float: left;
+    font-size: 17px;
+    color: white;
+    letter-spacing: 1px;
+}
+.third-left div .third-contact-1{
+    position:relative;
+    width: 100%;
+    padding:10px;
+    top: -65%;
+    left: 50%;
+}
+.fourth-left h4{
+   
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    left: 3%;
+    font-size: 30px;
+}
+.fourth-left p{
+    position: absolute;
+    top: 20%;
+    padding: 40px;
+    font-size: 15px;
+}
+.fourth-left img{
+    width:40% ;
+
+}
+.fourth-left{
+   
+    padding: 0px;
+    color: white;
+}
+.fourth-right img{
+    width: 50%;
+    height: 100%;
+}
+.fourth-right p{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 10px;
+}
+.five-box,.six-box{
+    width: 55%;
+    height: 150px;  
+    position: relative;
+    left: 20%;
+}
+.five-left ,.six-left{
+    width: 100%;
+    height: 150px;  
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    letter-spacing: 10px;
+    justify-content: center;
+    background-color:rgb(248, 39, 39);
+    color:white ;
+    background-color: skyblue;
+}
+.five-left p{
+    letter-spacing:8px;
+    font-size: 20px;
+}
+.six-left img {
+   width: 40%;
+   
+}
+.six-left{
+  
+    background-color: orange;
+}
+.six-left p{
+    font-size: 15px;
+    letter-spacing: 5px;
+   
+}
+.seven-left i{
+    font-size: 100px;
+}
+.seven-left p{
+    color: white;
+    font-size: 20px;
+}
+.seven-right{
+   padding: 30px;
+}
+.seven-right span{
+    font-size: 30px;
+}
+.seven-left span{
+    font-size: 30px;
+}
+.first-right p img {
+    width: 15%;
+}
+.five-left p b {
+    font-size: 40px;
+}
+.six-left p span {
+    font-size: 40px;
+}
+@media screen and (min-width:1040px){
+    header p{
+        top: 5%;
+    }
+    header span{
+      
+        top: 26%;
+    }
+    .first-box,.second-box,.third-box,
+    .fourth-box,.seven-box{
+        width: 70%;
+    }
+        .first-left span{
+            top: 15%;
+            padding: 1px;
+            font-size: 40px;
+        }
+        .first-right p img {
+            width: 10%;
+        }
+        .second-left p{
+            width: 50%;
+            font-size: 20px;
+        }
+        .second-left ul{
+            left: 50%;
+        }
+        .third-left div{
+            padding: 0px;
+        }
+        .third-left p i{
+            font-size: 40px;
+            position: absolute;
+            top: 15px;
+        }
+        .fourth-right p{
+            top: 0;
+    
+        }
+        .five-box,.six-box{
+            width: 70%;
+        }
+        .seven-right{
+            padding: 10px;
+        }
+        .seven-right span{
+            font-size: 25px;
+        }
+       
+    
+    
+}
+@media screen and (max-width:998px) {
+    header p{
+        top: 5%;
+    }
+    header span{
+      
+        top: 26%;
+    }
+    .first-box,.second-box,.third-box,
+.fourth-box,.seven-box{
+    width: 70%;
+}
+    .first-left span{
+        top: 15%;
+        padding: 1px;
+        font-size: 40px;
+    }
+    .first-right p img {
+        width: 10%;
+    }
+    .second-left p{
+        width: 50%;
+        font-size: 20px;
+    }
+    .second-left ul{
+        left: 60%;
+    }
+    .second-left ul li{
+        letter-spacing: 20px;
+        
+       }
+    .third-left div{
+        padding: 0px;
+    }
+    .third-left p i{
+        font-size: 40px;
+        position: absolute;
+        top: 15px;
+    }
+    .third-left p b{
+        font-size: 20px;
+       }
+    .fourth-right p{
+        top: 0;
+
+    }
+    .five-box,.six-box{
+        width: 70%;
+    }
+    .seven-right{
+        padding: 10px;
+    }
+    .seven-right span{
+        font-size: 25px;
+    }
+    .seven-left span{
+        font-size: 20px;
+    }
+   
+
+}
+@media screen and (max-width:750px) {
+   header p{
+    top: 2%;
+    font-size: 60px;
+   }
+   header span{
+    top: 15%;
+    letter-spacing:5px;
+   }
+   .first-box,.second-box,.third-box,
+   .fourth-box,.seven-box{
+       width: 80%;
+       left: 10%;
+   }
+   .first-left span{
+    left: 15%;
+   }
+   .second-left p{
+    font-size: 15px;
+   }
+   .second-left ul{
+    left: 60%;
+   }
+   .second-left ul li{
+    letter-spacing:20px;
+    
+   }
+   .second-left ul li span{
+    font-size: 20px;
+   }
+   .third-left p b{
+    font-size: 20px;
+   }
+   .third-left p i{
+    font-size: 40px;
+    position: absolute;
+    top: 15px;
+}
+.third-left div{
+    padding: 0px;
+    font-size: 15px;
+}
+.fourth-left p{
+    padding: 30px;
+}
+.fourth-right p{
+    padding: 0px;
+    letter-spacing: 4px;
+}
+.five-box,.six-box{
+    width: 80%;
+    height: 150px;  
+    position: relative;
+    left: 10%;
+}
+.five-left p b{
+    font-size: 25px;
+}
+.six-left p span{
+    font-size: 33px;
+}
+.seven-left{
+    letter-spacing: 3px ;
+}
+.seven-right span{
+    font-size: 20px;
+}
+}
+
+
